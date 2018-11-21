@@ -1,0 +1,109 @@
+* {
+    font-family: Arial, 'Courier New';
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    height: 235px;
+    border-top: 5px solid #1fa1ff;
+}
+.container_top_inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 37px;
+    background-color: #323232;
+}
+.container_top_inicio_inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 1200px;
+}
+.container_top_inicio_text1{
+    display: flex;
+    color: #a3a3a3;
+    font-size: 10px;
+    line-height: 37px;
+    margin-left: 2px;
+    margin-right: 15px;
+}
+.container_top_inicio_text_img {
+    display: flex;
+    color: #a3a3a3;
+    font-size: 10px;
+    line-height: 37px;
+}
+.container_top_inicio_text_img img {
+    display: flex;
+    height: 14px;
+    width: 19px;
+    margin-top: 4px;
+    padding: 7px;
+}
+.container_top_inicio_text2 a{
+    display: flex;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 10px;
+    line-height: 37px;
+    margin-left: 7px;
+}
+.container_top_inicio_text3 {
+    display: flex;
+    color: #99CC00;
+    font-size: 10px;
+    line-height: 37px;
+    margin-left: 2px;
+}
+.container_midle_inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    background-color: #232323;
+}
+.container_midle_inicio_inf {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+}
+.container_midle_inicio_img {
+    width: 400px;
+}
+.container_midle_inicio_img img {
+    margin-top: 11px;
+}
+.container_midle_inicio_search {
+    display: flex;
+    width: 400px;
+    margin-top: 58px;
+}
+#txtBusca {
+    display: flex;
+    float: none;
+    width: 360px;
+    height: 37px;
+    border: 1px solid #1fa1ff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+#btnBusca {
+    display: flex;
+    height: 37px;
+}
+.container_midle_inicio_vendas {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.container_midle_inicio_text {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+}
